@@ -1,0 +1,75 @@
+<svg viewBox="210 -275 1350 1125" width="512" height="512" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<style>.vertex { font-family: Consolas } .edge { font-family: Consolas } .text { font-family: Consolas }</style>
+    <path d="M 1180 630L 1422.8253173828125 362.89215087890625" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(1422.8253173828125 362.89215087890625) rotate(-47.72631099390627)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 1180 -30L 1180 544.9822998046875" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(1180 544.9822998046875) rotate(90)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 1180 630L 624.98046875 630" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(624.98046875 630) rotate(180)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 1180 -30L 599.16015625 568.9910888671875" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(599.16015625 568.9910888671875) rotate(134.11859600341788)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 1180 -30L 635.48828125 -30" fill="none" stroke="hsl(0,100%,48%)" stroke-width="5"></path>
+    <path transform="translate(635.48828125 -30) rotate(180)" d="M-1.75, -8.75 L 24.5 0 L -1.75, 8.75 z" fill="hsl(0,100%,48%)"></path>
+    <path d="M 540 -30L 540 544.9822998046875" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(540 544.9822998046875) rotate(90)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 540 630L 341.32293701171875 367.74627685546875" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(341.32293701171875 367.74627685546875) rotate(-127.1466866980218)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 540 -30L 1399.8211669921875 271.85211181640625" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(1399.8211669921875 271.85211181640625) rotate(19.34432927212115)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 1180 -30L 1422.8253173828125 237.10784912109375" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(1422.8253173828125 237.10784912109375) rotate(47.72631099390627)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 1180 630L 599.16015625 31.0089111328125" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(599.16015625 31.0089111328125) rotate(-134.11859600341788)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 1180 -30L 1159.492201309549 -44.82862591737151L 1139.2044972599751 -59.063663257832104L 1119.1368878512783 -72.70511202138181L 1099.2893730834585 -85.7529722080206L 1079.6619529565157 -98.20724381774846L 1060.25462747045 -110.06792685056543L 1041.0673966252616 -121.33502130647149L 1022.1002604209501 -132.00852718546665L 1003.3532188575157 -142.08844448755087L 984.8262719349584 -151.5747732127242L 966.5194196532782 -160.46751336098666L 948.432662012475 -168.76666493233816L 930.565999012549 -176.47222792677877L 912.9194306535 -183.5842023443085L 895.492956935328 -190.10258818492727L 878.2865778580333 -196.02738544863516L 861.3002934216155 -201.35859413543216L 844.5341036260747 -206.0962142453182L 827.9880084714111 -210.24024577829337L 811.6620079576247 -213.79068873435764L 795.5561020847152 -216.74754311351097L 779.6702908526829 -219.1108089157534L 764.0045742615275 -220.88048614108496L 748.5589523112494 -222.0565747895056L 733.3334250018482 -222.63907486101527L 718.3279923333242 -222.6279863556141L 703.5426543056772 -222.023309273302L 688.9774109189074 -220.825043614079L 674.6322621730145 -219.03318937794506L 660.5072080679988 -216.64774656490022L 646.6022486038601 -213.6687151749445L 632.9173837805986 -210.09609520807788L 619.452613598214 -205.92988666430034L 606.2079380567066 -201.17008954361188L 593.1833571560762 -195.8167038460125L 580.378870896323 -189.8697295715022L 567.7944792774468 -183.32916672008105L 555.4301822994477 -176.19501529174892L 543.2859799623257 -168.46727528650592L 531.3618722660807 -160.145946704352L 519.6578592107128 -151.23102954528724L 508.17394079622204 -141.7225238093115L 496.91011702260835 -131.62042949642486L 485.8663878898717 -120.92474660662734L 475.0427533980121 -109.6354751399189L 464.4392135470296 -97.75261509629954L 454.0557683369242 -85.27616647576926L 443.89241776769586 -72.20612927832809L 433.94916183934464 -58.54250350397601L 424.22600055187047 -44.285289152713034L 414.7229339052734 -29.434486224539143L 405.4399618995534 -13.990094719454333L 396.37708453471043 2.0478853625413933L 387.5343018107446 18.67945402144801L 378.9116137276558 35.904611257265515L 370.5090202854441 53.723357069993966L 362.3265214841095 72.1356914596333L 354.36411732365195 91.14161442618357L 346.62180780407147 110.74112596964471L 339.0995929253681 130.9342260900168L 331.79747268754176 151.72091478729976L 324.71544709059253 173.10119206149363L 317.8535161345204 195.07505791259842L 311.2116798193253 217.64251234061413" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(311.2116798193253 217.64251234061413) rotate(104.44298373409087)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 540 -30L 341.32293701171875 232.25372314453125" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(341.32293701171875 232.25372314453125) rotate(127.1466866980218)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 1480 300L 375.01556396484375 300" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(375.01556396484375 300) rotate(180)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 540 630L 561.3522661866202 646.101321846839L 582.4818949139162 661.5684642640875L 603.3888861818879 676.4014272517456L 624.0732399905353 690.6002108098132L 644.5349563398582 704.1648149382904L 664.774035229857 717.095239637177L 684.7904766605313 729.3914849064731L 704.5842806318814 741.0535507461789L 724.1554471439072 752.081437156294L 743.5039761966086 762.4751441368187L 762.6298677899857 772.234671687753L 781.5331219240385 781.3600198090968L 800.213738598767 789.8511885008501L 818.6717178141712 797.7081777630128L 836.907059570251 804.9309875955853L 854.9197638670065 811.5196179985671L 872.7098307044378 817.4740689719586L 890.2772600825447 822.7943405157594L 907.6220520013272 827.4804326299699L 924.7442064607856 831.5323453145897L 941.6437234609194 834.9500785696193L 958.3206030017291 837.7336323950583L 974.7748450832145 839.8830067909068L 991.0064497053754 841.3982017571649L 1007.0154168682121 842.2792172938324L 1022.8017465717245 842.5260534009095L 1038.3654388159125 842.1387100783961L 1053.7064936007764 841.1171873262923L 1068.8249109263156 839.461485144598L 1083.7206907925308 837.1716035333131L 1098.3938331994216 834.2475424924378L 1112.844338146988 830.689302021972L 1127.0722056352301 826.4968821219159L 1141.0774356641482 821.6702827922691L 1154.8600282337416 816.2095040330319L 1168.4199833440107 810.1145458442043L 1181.7573009949556 803.385408225786L 1194.8719811865762 796.0220911777774L 1207.7640239188725 788.0245947001783L 1220.4334291918444 779.3929187929887L 1232.880197005492 770.1270634562087L 1245.1043273598152 760.2270286898381L 1257.1058202548143 749.6928144938771L 1268.884675690489 738.5244208683256L 1280.4408936668392 726.7218478131836L 1291.7744741838656 714.2850953284512L 1302.8854172415672 701.2141634141283L 1313.7737228399446 687.5090520702148L 1324.4393909789976 673.1697612967109L 1334.8824216587263 658.1962910936165L 1345.1028148791308 642.5886414609317L 1355.1005706402111 626.3468123986564L 1364.875688941967 609.4708039067907L 1374.4281697843983 591.9606159853344L 1383.7580131675054 573.8162486342876L 1392.8652190912885 555.0377018536503L 1401.749787555747 535.6249756434227L 1410.4117185608811 515.5780700036046L 1418.851012106691 494.89698493419587L 1427.0676681931768 473.5817204351967L 1435.061686820338 451.6322765066071L 1442.833067988175 429.048653148427L 1450.3818116966877 405.8308503606564L 1457.707917945876 381.9788681432954" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(1457.707917945876 381.9788681432954) rotate(-74.78768862530293)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 1180 630L 382.80792236328125 334.41192626953125" fill="none" stroke="hsl(134,92%,22%)" stroke-width="6"></path>
+    <path transform="translate(382.80792236328125 334.41192626953125) rotate(-159.6558987440816)" d="M-2, -10 L 28 0 L -2, 10 z" fill="hsl(134,92%,22%)"></path>
+    <circle cx="290" cy="300" r="70" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="290" y="300" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">Кутузовская</text>
+    <circle cx="540" cy="-30" r="70" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="540" y="-30" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">Театральная</text>
+    <circle cx="1180" cy="-30" r="70" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="1180" y="-30" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">Октябрьская</text>
+    <circle cx="540" cy="630" r="70" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="540" y="630" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">Юго-Западная</text>
+    <circle cx="1180" cy="630" r="70" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="1180" y="630" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">Курская</text>
+    <circle cx="1480" cy="300" r="70" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="1480" y="300" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">Отрадная</text>
+    <rect x="830" y="-76" width="60" height="32" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+    <text class="text" x="860" y="-60" dominant-baseline="middle" text-anchor="middle" fill="hsl(0,100%,48%)" font-size="25px">4,67</text>
+    <rect x="490" y="195" width="40" height="30" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+    <text class="text" x="510" y="210" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="23px">14</text>
+    <rect x="1280" y="435" width="40" height="30" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+    <text class="text" x="1300" y="450" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="23px">14</text>
+    <rect x="1130" y="225" width="40" height="30" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+    <text class="text" x="1150" y="240" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="23px">14</text>
+    <rect x="850" y="585" width="40" height="30" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+    <text class="text" x="870" y="600" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="23px">18</text>
+    <rect x="900" y="175" width="40" height="30" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+    <text class="text" x="920" y="190" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="23px">18</text>
+    <rect x="430" y="445" width="40" height="30" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+    <text class="text" x="450" y="460" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="23px">19</text>
+    <rect x="840" y="35" width="40" height="30" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+    <text class="text" x="860" y="50" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="23px">21</text>
+    <rect x="1310" y="75" width="40" height="30" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+    <text class="text" x="1330" y="90" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="23px">23</text>
+    <rect x="980" y="375" width="40" height="30" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+    <text class="text" x="1000" y="390" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="23px">24</text>
+    <rect x="670" y="-265" width="40" height="30" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+    <text class="text" x="690" y="-250" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="23px">28</text>
+    <rect x="370" y="95" width="40" height="30" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+    <text class="text" x="390" y="110" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="23px">33</text>
+    <rect x="700" y="265" width="40" height="30" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+    <text class="text" x="720" y="280" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="23px">37</text>
+    <rect x="990" y="805" width="40" height="30" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+    <text class="text" x="1010" y="820" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="23px">44</text>
+    <rect x="810" y="454.5" width="40" height="31" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+    <text class="text" x="830" y="470" dominant-baseline="middle" text-anchor="middle" fill="hsl(134,96%,26%)" font-size="24px">51</text>
+</svg>
