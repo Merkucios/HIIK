@@ -1,0 +1,52 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\Андрей\\.nuget\\packages\\": {},
+    "D:\\Visual Studio 2022 SDK\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Документы\\Учёба HIIK\\Системное программирование\\Лабораторные\\Графический интерфейс\\Project1\\Project1\\Project1.vcxproj",
+      "projectName": "Project1",
+      "projectPath": "D:\\Документы\\Учёба HIIK\\Системное программирование\\Лабораторные\\Графический интерфейс\\Project1\\Project1\\Project1.vcxproj",
+      "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
+      "outputPath": "D:\\Документы\\Учёба HIIK\\Системное программирование\\Лабораторные\\Графический интерфейс\\Project1\\Project1\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Visual Studio 2022 SDK\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net40": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net40": {
+        "targetAlias": "net6.0",
+        "secondaryFramework": "native"
+      }
+    }
+  }
+}

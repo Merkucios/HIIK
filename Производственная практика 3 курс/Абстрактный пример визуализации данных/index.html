@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Визуализация данных</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+                            <span class="title">Либерти</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="analytics-outline"></ion-icon></span>
+                            <span class="title">Визуализация данных</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">    
+                            <span class="icon"><ion-icon name="body-outline"></ion-icon></span>
+                            <span class="title">Новый пункт</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="body-outline"></ion-icon></span>
+                            <span class="title">Новый пункт</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="body-outline"></ion-icon></span>
+                            <span class="title">Новый пункт</span>
+                        </a>
+                    </li>
+                </ul>
+            </div> 
+
+            <!-- Главная часть страницы-->
+            <div class="main">
+                <div class="topbar">
+                    <div class="toggle">
+                        <ion-icon name="grid-outline"></ion-icon>
+                    </div>
+                    <!-- Иконка пользователя-->
+                    <div class="user">
+                       <img src="Images/user.png">
+                    </div>
+                </div>
+                <!-- Инетрактивные карты -->
+                <div class="cardBox">
+                    <div class="card">
+                        <div class="numbers">14 328</div>
+                        <div class="cardName">Всего продаж</div>
+                        <div class="iconBox">
+                            <ion-icon name="cellular-outline"></ion-icon>
+                        </div>
+                    </div>  
+                    <div class="card">
+                        <div class="numbers">2857</div>
+                        <div class="cardName">Остаток продукции</div>
+                        <div class="iconBox">
+                            <ion-icon name="alarm-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="numbers">2 712 322 ₽</div>
+                        <div class="cardName">Прибыль</div>
+                        <div class="iconBox">
+                            <ion-icon name="trending-up-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="numbers">349 932 ₽</div>
+                        <div class="cardName">Расходы</div>
+                        <div class="iconBox">
+                            <ion-icon name="trending-down-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>  
+
+                <!-- Отрисовка графика -->
+                <div class="chart">
+                    <canvas id="polarArea" width="300px" height="300px"></canvas>
+                    <canvas id="doughnut" width="300px" height="300px"></canvas>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <script>
+            // Меню 
+            let toggle = document.querySelector('.toggle');
+            let navigation = document.querySelector('.navigation');
+            let main = document.querySelector('.main');
+
+            toggle.onclick = function()
+            {
+                navigation.classList.toggle('active');
+                main.classList.toggle('active');
+            }
+
+            // Добавление класса 'hovered' для предмета в списке
+            let list = document.querySelectorAll('.navigation ul li');
+            function activeLink()
+            {
+                list.forEach((item) => 
+                item.classList.remove('hovered'));
+                this.classList.add('hovered');
+            }
+            list.forEach((item) =>
+            item.addEventListener('mouseover',activeLink))
+
+            // Отрисовка графика    
+            let ctx = document.querySelector('#polarArea').getContext('2d');
+            let polarArea = new Chart(ctx, {
+                type: 'polarArea',
+                data: {
+                    labels: ['Спецобувь', 'Средства защиты', 'Экзоскелеты', 'Спеодежда', 'Другое'],
+                    datasets: [{
+                    label: 'Товар',
+                    data: [923, 200, 200, 983, 551],
+                    backgroundColor: [
+                        'rgb(255, 99, 132)',
+                        'rgb(201, 203, 207)',
+                        'rgb(255, 205, 86)',
+                        'rgb(75, 192, 192)',
+                        'rgb(54, 162, 235)'
+                    ]
+                }]
+            },
+                options:{
+                    plugins:{
+                        title: {
+                        display: true,
+                        text: 'Остаток продукции'
+                        }
+                    }
+                }
+            });
+
+            let ctx2 = document.querySelector('#doughnut').getContext('2d');
+            let doughnut = new Chart(ctx2, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
+                    datasets: [{
+                        data: [145291, 201293, 31392, 252932, 559123, 401242, 132405, 291000, 291823, 182302, 132495, 91024],
+                        backgroundColor: 
+                        ['rgb(0, 204, 255)',
+                         'rgb(0, 255, 51)',
+                         'rgb(153, 255, 51)', 
+                         'rgb(204,51,204)',
+                         'rgb(255,51,0)', 
+                         'rgb(255, 102, 0)', 
+                         'rgb(255, 0, 102)', 
+                         'rgb(51, 0 , 254)', 
+                         'rgb(102, 255, 255)', 
+                         'rgb(51, 255, 102)', 
+                         'rgb(204, 204, 0)', 
+                         'rgb(102, 204, 51)'],
+                        borderColor: 'white',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                      legend: {
+                        position: 'top',
+                      },
+                      title: {
+                        display: true,
+                        text: 'Прибыль компании'
+                      }
+                    }
+                },
+            })
+        </script>
+    </body>
+</html>

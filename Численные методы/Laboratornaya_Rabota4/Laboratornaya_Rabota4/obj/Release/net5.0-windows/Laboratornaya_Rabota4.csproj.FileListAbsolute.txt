@@ -1,0 +1,16 @@
+C:\Users\Семья\Desktop\Андрея\Программирование\Проекты\Laboratornaya_Rabota4\Laboratornaya_Rabota4\bin\Release\net5.0-windows\Laboratornaya_Rabota4.exe
+C:\Users\Семья\Desktop\Андрея\Программирование\Проекты\Laboratornaya_Rabota4\Laboratornaya_Rabota4\bin\Release\net5.0-windows\Laboratornaya_Rabota4.deps.json
+C:\Users\Семья\Desktop\Андрея\Программирование\Проекты\Laboratornaya_Rabota4\Laboratornaya_Rabota4\bin\Release\net5.0-windows\Laboratornaya_Rabota4.runtimeconfig.json
+C:\Users\Семья\Desktop\Андрея\Программирование\Проекты\Laboratornaya_Rabota4\Laboratornaya_Rabota4\bin\Release\net5.0-windows\Laboratornaya_Rabota4.runtimeconfig.dev.json
+C:\Users\Семья\Desktop\Андрея\Программирование\Проекты\Laboratornaya_Rabota4\Laboratornaya_Rabota4\bin\Release\net5.0-windows\Laboratornaya_Rabota4.dll
+C:\Users\Семья\Desktop\Андрея\Программирование\Проекты\Laboratornaya_Rabota4\Laboratornaya_Rabota4\bin\Release\net5.0-windows\Laboratornaya_Rabota4.pdb
+C:\Users\Семья\Desktop\Андрея\Программирование\Проекты\Laboratornaya_Rabota4\Laboratornaya_Rabota4\obj\Release\net5.0-windows\Laboratornaya_Rabota4.csproj.AssemblyReference.cache
+C:\Users\Семья\Desktop\Андрея\Программирование\Проекты\Laboratornaya_Rabota4\Laboratornaya_Rabota4\obj\Release\net5.0-windows\Laboratornaya_Rabota4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Семья\Desktop\Андрея\Программирование\Проекты\Laboratornaya_Rabota4\Laboratornaya_Rabota4\obj\Release\net5.0-windows\Laboratornaya_Rabota4.AssemblyInfoInputs.cache
+C:\Users\Семья\Desktop\Андрея\Программирование\Проекты\Laboratornaya_Rabota4\Laboratornaya_Rabota4\obj\Release\net5.0-windows\Laboratornaya_Rabota4.AssemblyInfo.cs
+C:\Users\Семья\Desktop\Андрея\Программирование\Проекты\Laboratornaya_Rabota4\Laboratornaya_Rabota4\obj\Release\net5.0-windows\Laboratornaya_Rabota4.csproj.CoreCompileInputs.cache
+C:\Users\Семья\Desktop\Андрея\Программирование\Проекты\Laboratornaya_Rabota4\Laboratornaya_Rabota4\obj\Release\net5.0-windows\Laboratornaya_Rabota4.dll
+C:\Users\Семья\Desktop\Андрея\Программирование\Проекты\Laboratornaya_Rabota4\Laboratornaya_Rabota4\obj\Release\net5.0-windows\refint\Laboratornaya_Rabota4.dll
+C:\Users\Семья\Desktop\Андрея\Программирование\Проекты\Laboratornaya_Rabota4\Laboratornaya_Rabota4\obj\Release\net5.0-windows\Laboratornaya_Rabota4.pdb
+C:\Users\Семья\Desktop\Андрея\Программирование\Проекты\Laboratornaya_Rabota4\Laboratornaya_Rabota4\obj\Release\net5.0-windows\Laboratornaya_Rabota4.genruntimeconfig.cache
+C:\Users\Семья\Desktop\Андрея\Программирование\Проекты\Laboratornaya_Rabota4\Laboratornaya_Rabota4\obj\Release\net5.0-windows\ref\Laboratornaya_Rabota4.dll

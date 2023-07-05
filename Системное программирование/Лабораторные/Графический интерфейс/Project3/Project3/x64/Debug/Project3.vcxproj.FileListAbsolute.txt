@@ -1,0 +1,4 @@
+D:\Документы\Учёба HIIK\Системное программирование\Лабораторные\Графический интерфейс\Project3\Project3\x64\Debug\Project3.vcxproj.AssemblyReference.cache
+D:\Документы\Учёба HIIK\Системное программирование\Лабораторные\Графический интерфейс\Project3\Project3\x64\Debug\Project3.vcxproj.SuggestedBindingRedirects.cache
+D:\Документы\Учёба HIIK\Системное программирование\Лабораторные\Графический интерфейс\Project3\Project3\x64\Debug\Project3.MyForm.resources
+D:\Документы\Учёба HIIK\Системное программирование\Лабораторные\Графический интерфейс\Project3\Project3\x64\Debug\Project3.vcxproj.GenerateResource.cache

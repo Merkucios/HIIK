@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>418</width>
+    <height>508</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1,
+  stop:0 #4158D0,
+  stop:0.46 #C850C0,
+  stop:1 #4B1061);
+
+font-family:Cambria
+
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(255,255,255,70);
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="spacing">
+         <number>25</number>
+        </property>
+        <property name="leftMargin">
+         <number>25</number>
+        </property>
+        <property name="topMargin">
+         <number>25</number>
+        </property>
+        <property name="rightMargin">
+         <number>25</number>
+        </property>
+        <property name="bottomMargin">
+         <number>25</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:white;
+font-weight:bold;
+font-size:20pt;
+background-color:none;
+border:none</string>
+          </property>
+          <property name="text">
+           <string>Новый заказ</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="cb_category">
+          <property name="styleSheet">
+           <string notr="true">QComboBox{
+font-size:16pt;
+color:white;
+
+}
+QComboBox:item{
+color:white;
+font-size:14pt;
+
+}</string>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>Спецодежда</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Спецобувь</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Средства защиты</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Защита рук</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Вендинг</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Экзоскелеты</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Другое</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDateEdit" name="date">
+          <property name="styleSheet">
+           <string notr="true">font-size:16pt;
+color:white;
+padding-left: 10px;</string>
+          </property>
+          <property name="buttonSymbols">
+           <enum>QAbstractSpinBox::NoButtons</enum>
+          </property>
+          <property name="date">
+           <date>
+            <year>2023</year>
+            <month>1</month>
+            <day>1</day>
+           </date>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="le_description">
+          <property name="styleSheet">
+           <string notr="true">font-size:16pt;
+color:white;
+padding-left:10px;</string>
+          </property>
+          <property name="placeholderText">
+           <string>Описание</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="le_balance">
+          <property name="styleSheet">
+           <string notr="true">font-size:16pt;
+color:white;
+padding-left:10px;</string>
+          </property>
+          <property name="placeholderText">
+           <string>Сумма</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="cb_typebudget">
+          <property name="styleSheet">
+           <string notr="true">QComboBox{
+font-size:16pt;
+color:white;
+
+}
+QComboBox:item{
+color:white;
+font-size:14pt;
+
+}</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>Доход</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Расход</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_transaction">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+font-size:22px;
+color: white;
+background-color:rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-radius:7px;
+width:230px;
+height:50px
+}	
+QPushButton::hover{
+background-color:rgba(255,255,255,50);
+}
+
+QPushButton::pressed{
+background-color:rgba(255,255,255,70);
+}
+</string>
+          </property>
+          <property name="text">
+           <string>Сохранить заказ</string>
+          </property>
+          <property name="icon">
+           <iconset resource="Icon/IconsPackage.qrc">
+            <normaloff>:/newPrefix/icons8-accept-48.png</normaloff>:/newPrefix/icons8-accept-48.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>30</width>
+            <height>30</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="Icon/IconsPackage.qrc"/>
+ </resources>
+ <connections/>
+</ui>
